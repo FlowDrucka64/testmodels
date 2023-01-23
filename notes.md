@@ -179,7 +179,7 @@ WT reclaims, Alice spends earlier tx.
 ![PCN](figs/cerb1.JPG)
 
 
-# Watchtower Committee
+# Watchtower Committee (Asynchronous approach)
 ![PCN](figs/watchtower6.JPG)
 
 ## Challanges
@@ -204,9 +204,17 @@ Why assist to close honsetly?
 ![PCN](figs/watchtower17.JPG)
 
 ### Why assist to close?
+If all watchtowers manage to collude to hold hostiles, they make profit. 
+
+However each one individually gains more money by following the protocol.
+
 ![PCN](figs/watchtower18.JPG)
 
 ### Why request to close?
+Parties can try to lock the collateral of the committee.
+
+However if one of the parties has more money in the channel than each member of the committee, they lock more of their own money.
+
 ![PCN](figs/watchtower19.JPG)
 
 ### Brick advantages
