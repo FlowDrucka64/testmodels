@@ -22,6 +22,10 @@
 
 
 ## Fulgor
+First Alice distrbutes keys (and ZKPs) to all parties.
+Each intermediate party can open their lock when the party to the right has opened theirs.
+
+
 ![PCN](figs/lightning11.JPG)
 
 ## Recap
@@ -29,6 +33,7 @@
 ![PCN](figs/lightning13.JPG)
 
 # Blitz
+Try to do it in "one round".
 ## Attempt 1
 ![PCN](figs/blitz1.JPG)
 ## Attempt 2
@@ -133,6 +138,7 @@
 
 ### Notation
 ![PCN](figs/watchtower3.JPG)
+
 Output (a+b) can either be spent by having the signature of A and waiting t or by having a multisig of A and B.
 
 ### Nonworking soltion (1/4)
@@ -165,6 +171,7 @@ Alice and bob agree to spend earlier output (not by revocation) making the revoc
 Alice and WT can collude to scam bob.
 
 WT reclaims, Alice spends earlier tx.
+
 ![PCN](figs/cerb2.JPG)
 
 
@@ -187,6 +194,7 @@ WT reclaims, Alice spends earlier tx.
 
 ## Incentives
 ![PCN](figs/watchtower13.JPG)
+
 Why assist to close honsetly?
 
 ### Collateral
@@ -197,6 +205,7 @@ Why assist to close honsetly?
 
 ### Why assist to close?
 ![PCN](figs/watchtower18.JPG)
+
 ### Why request to close?
 ![PCN](figs/watchtower19.JPG)
 
@@ -217,6 +226,9 @@ Why assist to close honsetly?
 ![PCN](figs/shard3.JPG)
 ### Scalability
 ![PCN](figs/shard4.JPG)
+
+## The model
+![PCN](figs/shard24.JPG)
 
 ## Boundaries
 ![PCN](figs/shard6.JPG)
